@@ -1,0 +1,1 @@
+function openPopup(a){$("#"+a).fadeIn(200)}function closePopup(){$(".popup").fadeOut(300)};
