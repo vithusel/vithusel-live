@@ -36,7 +36,7 @@ echo -e $TEXT_YELLOW
 echo 'setting ownership of folder and remove exising page'
 echo -e $TEXT_RESET
 
-git clone https://github.com/vithusel/vithusel3.0.git html
+git clone https://github.com/vithusel/vithusel-live.git html
 echo -e $TEXT_YELLOW
 echo 'Copy files to folder'
 echo -e $TEXT_RESET
