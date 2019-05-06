@@ -5,6 +5,14 @@
 <meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel=icon href=img/favicon.ico type=image/png>
 <title>Vithu's Portfolio</title>
+<meta name=description content="Personal Portfolio of Vithurshan Selvarajah">
+<meta name=keywords content="vithusel,vithu,vit,vithurshan,selvarajah,vithurshan selvarajah,portfolio,IT">
+<meta name=robots content="index, follow">
+<meta name=copyright content="Vithurshan Selvarajah">
+<meta name=language content=EN>
+<meta name=author content="vithurshan selvarajah">
+<meta name=distribution content=global>
+<meta name=rating content=general>
 <link rel=stylesheet href=css/bootstrap.css>
 <link rel=stylesheet href=vendors/linericon/style.css>
 <link rel=stylesheet href=css/font-awesome.min.css>
@@ -68,9 +76,8 @@
 <div class="row justify-content-center">
 <div class="col-lg-6 text-center">
 <div class=main-title>
-<h1>Latest Works</h1>
-<p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may
-see some for as low as $.17 each.</p>
+<h1>Latest Projects</h1>
+<p>Have a look at some of the projects that i have carried out over the last few years</p>
 </div>
 </div>
 </div>
@@ -79,8 +86,8 @@ see some for as low as $.17 each.</p>
 <div class=projects_fillter>
 <ul class="filter list">
 <li class=active data-filter=*>All Categories</li>
-<li data-filter=.brand>Branding</li>
-<li data-filter=.work>Creative Work </li>
+<li data-filter=.coding>Coding / Scripting</li>
+<li data-filter=.pi>Raspberry Pi</li>
 <li data-filter=.web>Web Design</li>
 </ul>
 </div>
@@ -97,58 +104,48 @@ see some for as low as $.17 each.</p>
 </div>
 </div>
 </div>
-<div class="col-lg-3 col-sm-6 col-sm-12 brand work grid-item">
+<div class="col-lg-3 col-sm-6 col-sm-12 brand pi grid-item">
 <div class=projects_item>
 <img class="img-fluid w-100" src=img/works/work2.jpg alt>
 <div class=projects_text>
-<a href=portfolio-details.html>
-<h4>2D Vinyl Design</h4>
-</a>
-<p>Client Project</p>
+<h4>Pepper Tab</h4>
+<button onClick="openPopup('div2')" class="btn btn-warning">View Project Files</button>
 </div>
 </div>
 </div>
-<div class="col-lg-3 col-sm-6 work grid-item">
+<div class="col-lg-3 col-sm-6 pi grid-item">
 <div class=projects_item>
 <img class="img-fluid w-100" src=img/works/work3.jpg alt>
 <div class=projects_text>
-<a href=portfolio-details.html>
-<h4>2D Vinyl Design</h4>
-</a>
-<p>Client Project</p>
+<h4>Retro Console</h4>
+<button onClick="openPopup('div3')" class="btn btn-warning">View Project Files</button>
 </div>
 </div>
 </div>
-<div class="col-lg-6 col-sm-6 brand work grid-item">
-<div class=projects_item>
-<img class="img-fluid w-100" src=img/works/work5.jpg alt>
-<div class=projects_text>
-<a href=portfolio-details.html>
-<h4>2D Vinyl Design</h4>
-</a>
-<p>Client Project</p>
-</div>
-</div>
-</div>
-<div class="col-lg-6 col-sm-6 brand web grid-item">
+<div class="col-lg-6 col-sm-6 brand coding grid-item">
 <div class=projects_item>
 <img class="img-fluid w-100" src=img/works/work4.jpg alt>
 <div class=projects_text>
-<a href=portfolio-details.html>
-<h4>2D Vinyl Design</h4>
-</a>
-<p>Client Project</p>
+<h4>Scripting</h4>
+<button onClick="openPopup('div4')" class="btn btn-warning">View Project Files</button>
 </div>
 </div>
 </div>
-<div class="col-lg-6 col-sm-6 brand work web grid-item">
+<div class="col-lg-6 col-sm-6 brand pi grid-item">
+<div class=projects_item>
+<img class="img-fluid w-100" src=img/works/work5.jpg alt>
+<div class=projects_text>
+<h4>CCTV System</h4>
+<button onClick="openPopup('div5')" class="btn btn-warning">View Project Files</button>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-sm-6 brand work pi grid-item">
 <div class=projects_item>
 <img class="img-fluid w-100" src=img/works/work8.jpg alt>
 <div class=projects_text>
-<a href=portfolio-details.html>
-<h4>2D Vinyl Design</h4>
-</a>
-<p>Client Project</p>
+<h4>Smart Doorbell</h4>
+<button onClick="openPopup('div6')" class="btn btn-warning">View Project Files</button>
 </div>
 </div>
 </div>
@@ -156,7 +153,6 @@ see some for as low as $.17 each.</p>
 <div class=projects_item>
 <img class="img-fluid w-100" src=img/works/work6.jpg alt>
 <div class=projects_text>
-<a href=portfolio-details.html>
 <h4>2D Vinyl Design</h4>
 </a>
 <p>Client Project</p>
@@ -167,7 +163,6 @@ see some for as low as $.17 each.</p>
 <div class=projects_item>
 <img class="img-fluid w-100" src=img/works/work7.jpg alt>
 <div class=projects_text>
-<a href=portfolio-details.html>
 <h4>2D Vinyl Design</h4>
 </a>
 <p>Client Project</p>
@@ -188,55 +183,55 @@ see some for as low as $.17 each.</p>
 <a href=http://legacy.vithusel.me class="button next" target=_blank>Legacy Website</a>
 <p></p>
 <p> To view the sourcecode for this website and the legacy at my Github profile which you can find by clicking the link below</p>
-<a href=https://github.com/vithusel/vithusel2.0 class="button next" target=_blank>View Source Code</a>
+<a href=https://github.com/vithusel/vithusel-live class="button next" target=_blank>View Source Code</a>
 </div>
 <div id=div2 class=popup style=display:none>
 <div class=cancel onclick=closePopup()>x</div>
 <h3></h3>
 <h2 class>Pepper Tab</h2>
-<embed src="/web/viewer.html?file=../Files/Download/PepperTab.pdf" style=width:100%;height:71%></embed>
-<a href=/Files/Download/PepperTab.pdf download=PepperTab>
-<button class=btnpopup style=width:100%><i class="fa fa-download"></i> Download</button></a>
+<embed src="/web/viewer.html?file=../Files/Download/PepperTab.pdf" style=width:100%;height:81%></embed>
+<a href=/Files/Download/PepperTab.pdf download=PepperTab></a>
 </div>
 <div id=div3 class=popup style=display:none>
-<div class=cancel onclick=closePopup()>x</div>
-<h3></h3>
-<h2 class>Console / Linux Machine</h2>
-</div>
-<div id=div4 class=popup style=display:none>
 <div class=cancel onclick=closePopup()>x</div>
 <h3></h3>
 <h2 class>Retro Console</h2>
 <div id=slideshow>
 <div>
-<img src=/images/PiStation/1.jpg style=width:100%;height:auto;background-repeat:no-repeat;background-size:cover>
+<img src=/img/PiStation/1.jpg style=width:100%;height:auto;background-repeat:no-repeat;background-size:cover>
 </div>
 <div>
-<img src=/images/PiStation/2.jpg style=width:100%;height:auto;background-repeat:no-repeat;background-size:cover>
+<img src=/img/PiStation/2.jpg style=width:100%;height:auto;background-repeat:no-repeat;background-size:cover>
 </div>
 <div>
-<img src=/images/PiStation/3.jpg style=width:100%;height:auto;background-repeat:no-repeat;background-size:cover>
+<img src=/img/PiStation/3.jpg style=width:100%;height:auto;background-repeat:no-repeat;background-size:cover>
 </div>
 <div>
-<img src=/images/PiStation/4.jpg style=width:100%;height:auto;background-repeat:no-repeat;background-size:cover>
+<img src=/img/PiStation/4.jpg style=width:100%;height:auto;background-repeat:no-repeat;background-size:cover>
 </div>
 <div>
-<img src=/images/PiStation/5.jpg style=width:100%;height:auto;background-repeat:no-repeat;background-size:cover>
+<img src=/img/PiStation/5.jpg style=width:100%;height:auto;background-repeat:no-repeat;background-size:cover>
 </div>
 </div>
-<p>test text</p>
+<p>This project began as more of a time pass. I saw software called Retropie availible on the internet and once viewing this i felt a need to implement it within a old console. The choice of console for this was a Playstation 1. I used parts of the main powersupply but scrapped everything else internally including remodelling the plastic within the housing so i could fit a Pi 3B + with enough ventilation. I had the original controller ports rewired and connected to a makeshift usb adapter so that the software can stil understand input from original controllers and had the boot splashed changed to mimic that of a PS1. Have a look through the above pictures to see my progress.</p>
 </div>
-<div id=div5 class=popup style=display:none>
+<div id=div4 class=popup style=display:none>
 <div class=cancel onclick=closePopup()>x</div>
 <h3></h3>
 <h2 class>Scripting</h2>
 <p>This script consisted of Batch, Powershell mainly. i created this script to automate the setup of machines at my workplace so that i wouldnt have to spend as much time focusing on setting up machines and to be able to improve my efficiency. At the time of making this script i was unable to use a alternative tool such as windows ADK or SCCM due to the nature of the machines setup. However i am now working toward/learning how to use Windows ADK to be able to improve my automation even more when combined with a modified script.
 </div>
+<div id=div5 class=popup style=display:none>
+<div class=cancel onclick=closePopup()>x</div>
+<h3></h3>
+<h2 class>CCTV System</h2>
+<p>To be filled</p>
+</div>
 <div id=div6 class=popup style=display:none>
 <div class=cancel onclick=closePopup()>x</div>
 <h3></h3>
 <h2 class>Smart Doorbell</h2>
-<p>Content to come</p>
+<p>With the use of a Pi Zero i planned to make a smart door bell which allowed the user to be notified whereever they are as well as view and talk with anyone at the door. This is still in planning phase with possible designs being drawn out. Once a final plan has been made i will update this listing to show it.</p>
 </div>
 <footer class="footer_area section_gap">
 <div class=container>

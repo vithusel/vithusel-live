@@ -1,11 +1,11 @@
 <?php
 
-    $to = "vithu@live.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+    $to = "contact@vithusel.me";
+    $from = $_POST['email'];
+    $name = $_POST['name'];
+    $subject = $_POST['subject'];
+    $number = $_POST['number'];
+    $cmessage = $_POST['message'];
 
     $headers = "From: $from";
 	$headers = "From: " . $from . "\r\n";
@@ -13,10 +13,10 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Website.";
+    $subject = "Someone left a message";
 
-    $logo = 'img/logo.png';
-    $link = '#';
+    $logo = 'https://vithusel.me/img/logo.png';
+    $link = 'https://vithusel.me';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
