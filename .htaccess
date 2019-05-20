@@ -10,3 +10,5 @@ RewriteRule ^ %1 [R,L]
 # To internally redirect /dir/foo/ to /dir/foo.php
 RewriteCond %{DOCUMENT_ROOT}/$1.php -f
 RewriteRule ^(.*?)/?$ $1.php [L]
+
+AddType application/x-httpd-php .html
